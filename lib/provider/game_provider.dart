@@ -64,7 +64,6 @@ class GameProvider extends ChangeNotifier {
   void clearBoard(context){
     board = List.filled(9, '');
     currentPlayer = 'Player1';
-    Navigator.of(context).pop();
     notifyListeners();
   }
 
